@@ -35,3 +35,26 @@ let r = {
 
 console.log('arabigo', arabigo);
   
+// PROYECTO KAREL
+// const romanos = 'MMDCLXXXIX'
+// const lista = romanos.split('')
+// let numeroArabico = 0
+// for (i = 0; i <= lista.length - 1; i++) {
+//     p1 = diccionario[lista[i]]
+  
+//     if (i + 1 < lista.length) {
+//         p2 = diccionario[lista[i + 1]]
+//         if (p1 >= p2) {
+//             numeroArabico += p1
+//         }
+//         else {
+//             numeroArabico += p2 - p1
+//             i += 1
+//         }
+//     }
+//     else {
+//         numeroArabico += p1
+//     }
+// }
+
+// console.log(numeroArabico)
