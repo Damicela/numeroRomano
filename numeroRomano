@@ -1,0 +1,37 @@
+let n = 'MMDCLXXXIX';
+let arr = n.split('');
+
+let r = {
+  I: 1,
+  V: 5,
+  X: 10,
+  L: 50,
+  C: 100,
+  D: 500,
+  M: 1000
+  
+}
+ 
+  let suma = 0;
+  let resta = 0;
+  let arabigo = 0;
+
+  for(let i = 0; i <= arr.length-1; i++){  
+     
+    if(r[arr[i]] < r[arr[i+1]]){
+      
+      resta += r[arr[i+1]] - r[arr[i]];
+      
+      i+= 1;
+
+      continue;
+      };
+    
+    suma += r[arr[i]];
+};
+
+ arabigo = suma + resta;
+
+
+console.log('arabigo', arabigo);
+  
